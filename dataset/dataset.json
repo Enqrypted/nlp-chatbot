@@ -1,0 +1,245 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "What's up",
+        "Yo",
+        "Hey there",
+        "Hiya"
+      ],
+      "responses": [
+        "Hi there! Welcome to RoVille. How can I help you today?",
+        "Hello! What brings you to this part of town?",
+        "Hey! Nice to see a friendly face around here.",
+        "What's up? How's your day going in RoVille?",
+        "Yo! What's on your mind?",
+        "Hey there! What's new with you in RoVille?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Later",
+        "Take care",
+        "Have a good one"
+      ],
+      "responses": [
+        "Goodbye! It was nice chatting with you. Enjoy your time in RoVille!",
+        "Bye for now! Have a great day exploring RoVille.",
+        "See you later! Take care of yourself and have fun in RoVille.",
+        "Later! Don't be a stranger in RoVille.",
+        "Take care! See you around RoVille.",
+        "Have a good one! Enjoy your adventures in RoVille."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "Thanks a lot",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome! Always happy to help out a fellow RoVille citizen.",
+        "No problem! That's what I'm here for in RoVille.",
+        "Anytime! It's my pleasure to assist in RoVille.",
+        "Don't mention it! Glad I could be of assistance in RoVille.",
+        "You got it! Have a great day exploring RoVille.",
+        "My pleasure! See you around RoVille."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need some help",
+        "Can you give me a hand?",
+        "Can you assist me?",
+        "I'm stuck",
+        "I'm lost",
+        "What should I do?"
+      ],
+      "responses": [
+        "Sure thing! What do you need help with in RoVille?",
+        "Of course! What's the problem in RoVille?",
+        "I'd be happy to! What's the situation in RoVille?",
+        "No problem! What can I do for you in RoVille?",
+        "Don't worry! I can help you out in RoVille.",
+        "I'm here for you! What's going on in RoVille?",
+        "Let's figure it out together! What's the issue in RoVille?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any jokes?",
+        "I need a laugh",
+        "Make me laugh",
+        "Can you tell me something funny?"
+      ],
+      "responses": [
+        "Sure, here's one: What do you call an alligator in a vest? An investigator! Enjoy your time in RoVille!",
+        "How about this one: Why did the scarecrow win an award? Because he was outstanding in his field! Have fun exploring RoVille!",
+        "I've got a good one: Why was the math book sad? Because it had too many problems. Hope that brings a smile to your face in RoVille!",
+        "Okay, here's a classic: Why don't scientists trust atoms? Because they make up everything. Enjoy your adventures in RoVille!",
+        "This one always gets me: Why did the tomato turn red? Because it saw the salad dressing! Have a great day in RoVille!",
+        "I like this one: What do you call a fake noodle? An impasta! Enjoy your time in RoVille!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ask_about_landmarks",
+      "patterns": [
+        "What are some must-see landmarks in RoVille?",
+        "Can you recommend any landmarks to visit in RoVille?",
+        "What are the most popular landmarks in RoVille?"
+      ],
+      "responses": [
+        "RoVille has many must-see landmarks! Some of the most popular ones include the RoVille Tower, the City Hall, and the Central Park. The best way to see the city is by taking a walking tour or renting a bike. You can also take a guided tour if you prefer!",
+        "If you're visiting RoVille for the first time, I recommend checking out the RoVille Tower, the city's most iconic landmark. You can also take a stroll around the beautiful Central Park or explore the historic downtown area. There are many guided tours available if you want to learn more about the city's history and culture.",
+        "The best way to see the city is by taking a walking tour. You can explore the city at your own pace and discover hidden gems that you might miss otherwise. There are also many guided tours available that cover different areas of the city, from the historic downtown to the trendy neighborhoods!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ask_about_events",
+      "patterns": [
+        "Are there any events happening in RoVille?",
+        "What's going on in RoVille this week?",
+        "Are there any festivals or concerts coming up?"
+      ],
+      "responses": [
+        "There are always events happening in RoVille! This week, there's a jazz festival in the park and a food truck festival in the downtown area. You can check the city's website for a full list of events!",
+        "RoVille has a vibrant events scene! There are many festivals, concerts, and shows happening throughout the year. You can check the city's events calendar to see what's coming up!",
+        "There's always something going on in RoVille! From music festivals to art exhibitions, there's something for everyone. You can check the local newspapers or the city's website for a full list of events!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ask_about_transportation",
+      "patterns": [
+        "What's the best way to get around RoVille?",
+        "Are there any public transportation options in RoVille?",
+        "How do I get to the airport from here in RoVille?"
+      ],
+      "responses": [
+        "The best way to get around RoVille is by walking, biking, or using public transportation. There are buses, trains, and taxis available throughout the city. You can also rent a car if you prefer!",
+        "RoVille has a good public transportation system, with buses and trains that connect different parts of the city. You can buy a day pass or a single ticket at the station. Taxis are also available if you prefer!",
+        "If you need to get to the airport from RoVille, you can take a taxi or a shuttle service. There are also buses and trains that connect the city to the airport. Make sure to check the schedule in advance to avoid any delays!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "Is it going to rain today?",
+        "Do I need an umbrella today?"
+      ],
+      "responses": [
+        "It looks like it's going to be sunny and warm today in RoVille. Enjoy the beautiful weather!",
+        "There's a chance of rain later in the day, so you might want to bring an umbrella just in case. But for now, it's sunny and warm in RoVille!",
+        "It's going to be a beautiful day in RoVille! No need for an umbrella right now, but keep an eye on the weather forecast just in case."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Can you recommend a good restaurant in RoVille?",
+        "Where's the best place to get pizza in RoVille?",
+        "What's the local cuisine in RoVille?"
+      ],
+      "responses": [
+        "RoVille has many great restaurants to choose from! If you're in the mood for pizza, I recommend trying Luigi's, a local favorite. They have the best pizza in town!",
+        "For a taste of the local cuisine, you have to try the seafood at the RoVille Pier. They have the freshest catch of the day, and the view of the ocean is amazing!",
+        "If you're looking for a romantic dinner spot, I recommend La Belle Epoque. It's a French restaurant with amazing food and a cozy atmosphere. Make sure to make a reservation in advance!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "shopping",
+      "patterns": [
+        "Where's the best place to go shopping in RoVille?",
+        "Can you recommend a good clothing store in RoVille?",
+        "Is there a shopping mall in RoVille?"
+      ],
+      "responses": [
+        "RoVille has many great shopping options! If you're looking for high-end fashion, I recommend checking out the boutiques on Main Street. For more affordable options, there's a shopping center on the outskirts of town.",
+        "For a unique shopping experience, you have to check out the artisanal market in the downtown area. They have handmade crafts and local goods that make great souvenirs!",
+        "If you're looking for a one-stop-shop, there's a large shopping mall on the edge of town with all the major retailers. They also have a food court and a movie theater!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "activities",
+      "patterns": [
+        "What are some fun things to do in RoVille?",
+        "Is there anything happening in RoVille tonight?",
+        "Can you recommend a good park or outdoor activity in RoVille?"
+      ],
+      "responses": [
+        "RoVille has many fun activities to choose from! If you're a thrill seeker, I recommend trying the roller coaster at the RoVille Amusement Park. For a more laid-back activity, there's a mini golf course on the outskirts of town.",
+        "For a night out in RoVille, I recommend checking out the local music scene. There are many bars and venues that feature live music, from jazz to rock to indie.",
+        "If you want to spend some time in nature, you have to check out the RoVille Botanical Gardens. They have beautiful flowers and plants from all over the world, and it's a great spot for a picnic or a leisurely stroll. There's also a hiking trail in the nearby mountains with stunning views of the city!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pets",
+      "patterns": [
+        "Are pets allowed in RoVille?",
+        "Can I bring my dog to RoVille?",
+        "Is there a pet store in RoVille?"
+      ],
+      "responses": [
+        "Pets are welcome in RoVille, but there are some restrictions in certain areas. Make sure to keep your pet on a leash and clean up after them. There are also many pet-friendly parks and restaurants in the city!",
+        "RoVille is a great place for dogs! There are many dog-friendly parks and trails, and most restaurants with outdoor seating allow pets. Just make sure to check the rules before bringing your furry friend!",
+        "For all your pet needs, there's a pet store on Main Street that carries everything from food to toys to grooming supplies. They also offer pet adoption services!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "Is there a university in RoVille?",
+        "Are there any good schools in RoVille?",
+        "What's the literacy rate in RoVille?"
+      ],
+      "responses": [
+        "RoVille has a great university with top-notch programs in business, engineering, and the arts. It's located in the outskirts of town and has a beautiful campus!",
+        "There are many good schools in RoVille, both public and private. The public schools are known for their high standards and rigorous curriculum, while the private schools offer a more personalized education.",
+        "RoVille has a high literacy rate, thanks in part to its excellent schools and libraries. The city takes education very seriously and invests heavily in its educational institutions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "What's the history of RoVille?",
+        "Can you recommend a good historical tour of RoVille?",
+        "What are some historic landmarks in RoVille?"
+      ],
+      "responses": [
+        "RoVille has a rich history dating back to the colonial era. The city was founded in 1765 and played an important role in the American Revolution. If you want to learn more, I recommend taking a historical walking tour of the downtown area.",
+        "For a comprehensive tour of RoVille's history, I recommend taking a guided tour that covers the city's landmarks and monuments. You can also visit the RoVille Historical Society for more information.",
+        "Some of the most important historic landmarks in RoVille include the Old Town Hall, the RoVille Lighthouse, and the RoVille Cemetery, which has graves dating back to the 18th century. Make sure to take a moment to appreciate the city's rich history while you're here!"
+      ],
+      "context_set": ""
+    }
+  ]
+}
