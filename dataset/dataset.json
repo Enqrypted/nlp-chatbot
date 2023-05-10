@@ -42,6 +42,18 @@
       "context_set": ""
     },
     {
+      "tag": "quest",
+      "patterns": [
+        "GET_QUEST"
+      ],
+      "responses": [
+        "Hey, by the way, do you think you could do me a favor? I need a package collected from %s and I would really appreciate if you could get it for me!",
+        "By the way, I'm really busy right now.. do you think you could pick up a package for me from %s?",
+        "An emergency came up but I really need a package collected from %s. Do you think you could get it for me? Please..?"
+      ],
+      "context_set": ""
+    },
+    {
       "tag": "gratitude",
       "patterns": [
         "Thank you",
