@@ -263,9 +263,10 @@
         "Sup"
       ],
       "responses": [
-        "RoVille has a rich history dating back to the colonial era. The city was founded in 1765 and played an important role in the American Revolution. If you want to learn more, I recommend taking a historical walking tour of the downtown area.",
-        "For a comprehensive tour of RoVille's history, I recommend taking a guided tour that covers the city's landmarks and monuments. You can also visit the RoVille Historical Society for more information.",
-        "Some of the most important historic landmarks in RoVille include the Old Town Hall, the RoVille Lighthouse, and the RoVille Cemetery, which has graves dating back to the 18th century. Make sure to take a moment to appreciate the city's rich history while you're here!"
+        "I'm just enjoying the beautiful day in RoVille. What brings you to town?",
+        "I'm doing great, thank you! Ready to help you explore RoVille. What's on your mind?",
+        "Just taking in the sights and sounds of RoVille. Can I help you with anything?",
+        "Not much, just hanging out in RoVille. How about you? Need any help around town?"
       ],
       "context_set": ""
     }

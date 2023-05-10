@@ -1,2 +1,2 @@
-model_checkpoint_path: "G:\\Documents\\Downloads\\AI-NLP-Chatbot-master\\AI-NLP-Chatbot-master\\models\\chatbot-model.tflearn"
-all_model_checkpoint_paths: "G:\\Documents\\Downloads\\AI-NLP-Chatbot-master\\AI-NLP-Chatbot-master\\models\\chatbot-model.tflearn"
+model_checkpoint_path: "C:\\Users\\Enqrypted\\nlp-chatbot\\models\\chatbot-model.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\Enqrypted\\nlp-chatbot\\models\\chatbot-model.tflearn"

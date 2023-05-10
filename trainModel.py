@@ -27,6 +27,7 @@ except:
 
 	#Looping over all data in json file as dictionaries
 	for intent in data['intents']:
+		print(intent)
 
 		#Looping over the patterns - input sentences
 		for pattern in intent['patterns']:
@@ -94,7 +95,7 @@ model = tflearn.DNN(net)
 print('[INFO] Training Model...')
 
 #Training model
-model.fit(train, output, n_epoch = 400, batch_size = 8, show_metric = True)
+model.fit(train, output, n_epoch = 600, batch_size = 8, show_metric = True)
 
 #Saving model weights
 model.save('models/chatbot-model.tflearn')
